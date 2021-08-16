@@ -22,7 +22,7 @@ Feature: Contacts page
       | Activities |
       | System     |
 
-
+@smoke
   Scenario: Menu Options Sales Manager
     Given the user logged in as "sales manager"
     Then the user should see following options
